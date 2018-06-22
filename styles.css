@@ -1,0 +1,14 @@
+/* low resolution, 480px and below */
+@media only screen and (max-width: 480px) {
+	h1 { color: red; }
+}
+
+/* medium resolution, 481px to 1023px */
+@media only screen and (min-width: 481px) {
+	h1 { color: blue; }
+}
+
+/* high resolution, 1024px and higher */
+@media only screen and (min-width: 1024px) {
+	h1 { color: black; }
+}
