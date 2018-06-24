@@ -1,3 +1,7 @@
+nav ul {
+	-webkit-padding-start: 0;
+}
+
 /* low resolution, 480px and below */
 @media only screen and (max-width: 480px) {
   p {
