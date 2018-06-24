@@ -1,51 +1,41 @@
 /* low resolution, 480px and below */
 @media only screen and (max-width: 480px) {
   p {
-    color: red;
-  }
-}
-
-/* medium resolution, 481px to 1023px */
-@media only screen and (min-width: 481px) {
-  p {
     color: rgb(0, 0, 0);
-	}
-	body {
-		background: rgb(244, 244, 244);
-	}
-	#master {
-		background: rgb(255, 255, 255);
-		border: 1px solid rgb(0, 0, 0);
-		margin: 0 auto;
-		width: 95%;
-	}
-	header {
-		background: rgb(200, 200, 200);
-		height: 130px;
-	}
-	nav {
-		background: rgb(0, 0, 0);
-		margin-bottom: 20px;
-		padding: 10px 5px;
-		text-align: center;
-	}
-	nav li {
-		display: inline;
-		margin-left: 10px;
-	}
-	nav li a {
-		color: rgb(255, 255, 255);
-	}
-	#slideshow {
-		border: 1px solid rgb(0, 0, 0);
-		height: 300px;
-		margin: 10px auto;
-		width: 90%;
-	}
-	.contentbox {
-		background: rgb(200, 200, 200);
-		border-top: 1px solid rgb(0, 0, 0);
-		border-bottom: 1px solid rgb(0, 0, 0);
+  }
+  body {
+    background: rgb(244, 244, 244);
+  }
+  #master {
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    margin: 0 auto;
+    width: 95%;
+  }
+  header {
+    background: rgb(200, 200, 200);
+    height: 130px;
+  }
+  nav {
+    background: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    padding: 10px 5px;
+    text-align: center;
+  }
+  nav li {
+    display: inline;
+    margin-left: 10px;
+  }
+  nav li a {
+    color: rgb(255, 255, 255);
+  }
+  #slideshow {
+    display: none;
+  }
+  .contentbox {
+    background: rgb(200, 200, 200);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-top: 1px solid rgb(0, 0, 0);
 		float: left;
 		margin-bottom: 10px;
 		padding: 10px;
@@ -60,6 +50,63 @@
 	footer nav {
 		margin-bottom: 0;
 	}
+}
+
+/* medium resolution, 481px to 1023px */
+@media only screen and (min-width: 481px) {
+  p {
+    color: rgb(0, 0, 0);
+  }
+  body {
+    background: rgb(244, 244, 244);
+  }
+  #master {
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    margin: 0 auto;
+    width: 95%;
+  }
+  header {
+    background: rgb(200, 200, 200);
+    height: 130px;
+  }
+  nav {
+    background: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    padding: 10px 5px;
+    text-align: center;
+  }
+  nav li {
+    display: inline;
+    margin-left: 10px;
+  }
+  nav li a {
+    color: rgb(255, 255, 255);
+  }
+  #slideshow {
+    border: 1px solid rgb(0, 0, 0);
+    height: 300px;
+    margin: 10px auto;
+    width: 90%;
+  }
+  .contentbox {
+    background: rgb(200, 200, 200);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-top: 1px solid rgb(0, 0, 0);
+    float: left;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  article {
+    margin-left: 10px;
+    width: 95%;
+  }
+  .news {
+    margin-bottom: 20px;
+  }
+  footer nav {
+    margin-bottom: 0;
+  }
 }
 
 /* high resolution, 1024px and higher */
