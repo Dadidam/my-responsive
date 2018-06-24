@@ -40,17 +40,19 @@ nav ul {
     display: none;
   }
   .contentbox {
-    background: rgb(200, 200, 200);
+    background: url(ContentBoxBG.jpg);
     border-bottom: 1px solid rgb(193, 180, 152);
     border-top: 1px solid rgb(193, 180, 152);
 		float: left;
 		margin-bottom: 10px;
 		padding: 10px;
+		text-align: center;
 	}
 		.contentbox p {
 			font-family: Verdana;
 			font-size: 80%;
 			line-height: 150%;
+			text-align: left;
 		}
 	article {
 		margin-bottom: 60px;
@@ -130,7 +132,7 @@ nav ul {
 			width: 100%;
 		}
   .contentbox {
-    background: rgb(200, 200, 200);
+    background: url(ContentBoxBG.jpg);
     border-bottom: 1px solid rgb(193, 180, 152);
     border-top: 1px solid rgb(193, 180, 152);
     float: left;
@@ -141,6 +143,10 @@ nav ul {
 			font-family: Verdana;
 			font-size: 80%;
 			line-height: 140%;
+		}
+		.contentbox img {
+			float: left;
+			margin-right: 10px;
 		}
   article {
 		margin-bottom: 50px;
@@ -217,7 +223,7 @@ nav ul {
     width: 840px;
   }
   .contentbox {
-    background: rgb(200, 200, 200);
+    background: url(ContentBoxBG.jpg);
     border-bottom: 1px solid rgb(193, 180, 152);
     border-top: 1px solid rgb(193, 180, 152);
     float: left;
@@ -229,6 +235,9 @@ nav ul {
 			font-family: Verdana;
 			font-size: 80%;
 			line-height: 140%;
+		}
+		.contentbox img {
+			margin-bottom: 10px;
 		}
   article {
 		width: 940px;
