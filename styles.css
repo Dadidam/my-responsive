@@ -12,7 +12,7 @@ nav ul {
   }
   #master {
     background: rgb(255, 255, 255);
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgb(193, 180, 152);
     margin: 0 auto;
     width: 95%;
   }
@@ -28,30 +28,61 @@ nav ul {
   }
 		nav li {
 			display: inline;
+			font-size: 120%;
+			line-height: 160%;
 			margin-left: 10px;
 		}
 		nav li a {
 			color: rgb(255, 255, 255);
+			text-decoration: none;
 		}
   #slideshow {
     display: none;
   }
   .contentbox {
     background: rgb(200, 200, 200);
-    border-bottom: 1px solid rgb(0, 0, 0);
-    border-top: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(193, 180, 152);
+    border-top: 1px solid rgb(193, 180, 152);
 		float: left;
 		margin-bottom: 10px;
 		padding: 10px;
 	}
+		.contentbox p {
+			font-family: Verdana;
+			font-size: 80%;
+			line-height: 150%;
+		}
 	article {
+		margin-bottom: 60px;
 		margin-left: 10px;
 		width: 95%;
 	}
 	.news {
 		margin-bottom: 20px;
 	}
+		.news h2 {
+			font-size: 120%;
+			margin-bottom: 5px;
+		}
+		.news h2 a {
+			color: rgb(189, 30, 44);
+			text-decoration: none;
+		}
+		.news p {
+			line-height: 150%;
+		}
+		.newsmeta {
+			float: right;
+			font-family: Verdana;
+			font-size: 70%;
+			margin-top: 5px;
+		}
+		.newsmeta a {
+			color: rgb(189, 30, 44);
+		}
 	footer nav {
+		font-family: Verdana;
+		font-size: 80%;
 		margin-bottom: 0;
 	}
 }
